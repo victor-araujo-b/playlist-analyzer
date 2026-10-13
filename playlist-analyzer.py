@@ -52,3 +52,6 @@ resultados = comparar_titulos(videos)
 for resultado in resultados:
     print(resultado)
 
+
+for video in videos:
+    print(video.get("titulo", ""))
